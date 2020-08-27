@@ -2,24 +2,24 @@
   box-sizing: border-box;
 }
 
-label.title {
+.title {
   display: block;
 }
 
-label.cat,
-p.question,
-select[name="cars"] {
+.cat,
+.question,
+.area[name="cars"] {
   display: inline-block;
 }
 
-fieldset.part {
+.part {
   margin-bottom: 20px;
 }
 
-input.area,
-p.question,
-label[for="message"],
-label[for="brand"] {
+.area,
+.question,
+.title[for="message"],
+.title[for="brand"] {
   margin-bottom: 10px;
 }
 
@@ -27,14 +27,14 @@ label[for="brand"] {
   margin-bottom: 0;
 }
 
-p.question {
+.question {
   margin-top: 0;
 }
 
-input[name="color"] {
+.area[name="color"] {
   box-sizing: content-box;
 }
 
-select[name="cars"] {
+.area[name="cars"] {
   height: 70px;
 }
