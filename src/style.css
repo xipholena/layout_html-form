@@ -7,8 +7,7 @@
 }
 
 .cat,
-.question,
-.area[name="cars"] {
+.question {
   display: inline-block;
 }
 
@@ -17,9 +16,7 @@
 }
 
 .area,
-.question,
-.title[for="message"],
-.title[for="brand"] {
+.question {
   margin-bottom: 10px;
 }
 
@@ -31,10 +28,10 @@
   margin-top: 0;
 }
 
-.area[name="color"] {
-  box-sizing: content-box;
+.area .auto {
+  height: 70px;
 }
 
-.area[name="cars"] {
-  height: 70px;
+.area.palette {
+  box-sizing: content-box;
 }
